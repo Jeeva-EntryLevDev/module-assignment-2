@@ -1,0 +1,113 @@
+
+        body{
+            font-size: 22px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #a11f91;
+        }
+        #navbar-header{
+            background-color: #50d07d;
+            border-radius: 0;
+            padding:0;
+        }
+        #brand-name{
+            margin-left: 28px;
+        }
+        #brand-name h1{
+            color: #1d2b21;
+            margin-top: 8px;
+            vertical-align: center;
+            font-family: 'Bangers', cursive;
+            font-size: 60px
+        }
+        .navbar-brand a:hover, .navbar-brand a:focus{
+            text-decoration: none;
+        }
+        .navbar-toggler{
+            border-color: black;
+            margin-right: 30px;
+        }
+        .navbar-toggler:hover{
+            background-color: white;
+        }
+        #navbarNavDropdown{
+            background-color: #729bf2;
+            border-top: solid black;
+            border-width: thin;
+        }
+        .navbar-nav{
+            color: white;
+        }
+        #navbarNavDropdown li{
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: white;
+            border-bottom: solid black;
+            border-right: solid black;
+            border-width: thin;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: black;
+        }
+        .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+            color: white;
+        }
+        .title{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .tiles{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            border-radius: 30px;
+            box-shadow: 5px 10px #888888;
+        }
+        /*for desktop md*/
+        @media(min-width:751px){
+            .navbar-toggler{
+                display: none;
+            }
+            #navbarNavDropdown li{
+                display: none;
+            }
+            #brand-name h1{
+                font-size: 68px;
+                margin-left: 50px;
+            }
+            h3{
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+        /*for tablet s*/
+        @media(min-width: 558px){
+            .navbar-toggler{
+                display: none;
+            }
+            #navbarNavDropdown li{
+                display: none;
+            }
+            #brand-name h1{
+                font-size: 60px;
+            }
+            h3{
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        }
+        /*for mobiles*/
+        @media(max-width: 557px){
+            .navbar-toggler{
+                display: block;
+            }
+            #navbarNavDropdown li{
+                display: block;
+            }
+            #brand-name h1{
+                font-size: 50px;
+            }
+            .title{
+                margin-bottom: 40px;
+            }
